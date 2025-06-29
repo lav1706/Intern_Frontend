@@ -10,7 +10,7 @@ const JobProvider = ({ children }) => {
   const [trigger, setTrigger] = useState(0);
 
   const axiosInstance = axios.create({
-    baseURL: "https://intern-backend-mxe4.onrender.com",
+    baseURL: "https://intern-backend-mxe4.onrender.com/",
     headers: {
       "Content-Type": "application/json",
     },
